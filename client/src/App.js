@@ -4,6 +4,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import { StoreProvider } from "./utils/GlobalState";
 
+import Success from "./pages/Success";
 
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
@@ -33,6 +34,7 @@ function App() {
           <StoreProvider>
             <Nav />
             <Switch>
+            <Route exact path="/success" component={Success} />
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
