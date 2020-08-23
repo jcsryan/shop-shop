@@ -1,3 +1,5 @@
+/*
+
 import React, { createContext, useContext } from "react";
 import { useProductReducer } from './reducers';
 
@@ -22,3 +24,5 @@ const StoreProvider = ({ value = [], ...props }) => {
   };
 
   export { StoreProvider, useStoreContext };
+
+  */

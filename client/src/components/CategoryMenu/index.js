@@ -11,8 +11,9 @@ import { useDispatch, useSelector } from "react-redux";
 
 function CategoryMenu() {
   //const [state, dispatch] = useStoreContext();
-  const dispatch = useDispatch()
+
   const categories = useSelector(state => state.categories)
+  const dispatch = useDispatch()
   
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
   
@@ -45,7 +46,7 @@ function CategoryMenu() {
   return (
     <div>
       <h2>Choose a Category:</h2>
-      {categories.map(item => (
+      {item => (
         <button
           key={item._id}
           onClick={() => {
@@ -54,7 +55,7 @@ function CategoryMenu() {
         >
           {item.name}
         </button>
-      ))}
+      )}
     </div>
   );
 }
