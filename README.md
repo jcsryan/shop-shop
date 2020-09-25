@@ -20,7 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Questions](#questions)
 
 ## Description
-### This application uses React, SCSS, Node, JS, CSS, HTML, MONGO, and State managment to allow users to add delete and update items to a virtual cart and checkout. 
+### This application uses React, SCSS, Node, JS, CSS, HTML, MONGO, and State managment to allow users to add delete and update items to a virtual cart and checkout. This project is no longer suported live, feel free to clone the branch!
 
 ## screenshots
 ![](2020-08-23-04-57-42.png)
